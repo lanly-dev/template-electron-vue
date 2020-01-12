@@ -13,6 +13,7 @@
   },
   "main": "background.js",
   "dependencies": {
+    "buefy": "^0.8.9",
     "core-js": "^3.6.3",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.1",
@@ -37,7 +38,9 @@
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "typescript": "~3.7.4",
+    "vue-cli-plugin-buefy": "^0.3.7",
     "vue-cli-plugin-electron-builder": "^1.4.4",
+    "vue-cli-plugin-pug": "^1.0.7",
     "vue-template-compiler": "^2.6.11"
   }
 }
