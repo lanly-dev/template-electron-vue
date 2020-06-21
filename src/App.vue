@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang='pug'>
   #app
     img(alt='Vue logo' src='./assets/logo.png')
     HelloWorld(msg='Welcome to Your Vue.js + TypeScript App')
@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
 export default class App extends Vue {}
 </script>
 
-<style lang="stylus">
+<style lang='stylus'>
 #app
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased

@@ -1,4 +1,4 @@
-<template lang="pug">
+<template lang='pug'>
  .hello
   h1 {{ msg }}
   p
@@ -41,12 +41,12 @@
       a(href='https://github.com/vuejs/awesome-vue' target='_blank' rel='noopener') awesome-vue
 </template>
 
-<script lang="ts">
+<script lang='ts'>
 import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
 export default class HelloWorld extends Vue {
-  @Prop() private msg!: string;
+  @Prop() private msg!: string
 }
 </script>
 
