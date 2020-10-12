@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: ['plugin:vue/essential', '@vue/standard', '@vue/typescript'],
   parserOptions: {
-    parser: '@typescript-eslint/parser'
+    ecmaVersion: 2020
   },
   plugins: ['@typescript-eslint'],
   rules: {
