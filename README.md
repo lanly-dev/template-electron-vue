@@ -1,23 +1,21 @@
 # vue-template
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+### Frontend development (static elements only)
+```sh
+npm run serve # Compiles and hot-reloads for
+npm run build # Compiles and minifies for production
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### Electron development
+```sh
+npm run eserve
+npm run ebuild
 ```
 
 ### Lints and fixes files
 ```
 npm run lint
+npm run lint-fix
 ```
 
 ### Customize configuration
