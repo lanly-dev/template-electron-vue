@@ -2,7 +2,7 @@
 
 ### Frontend development (static elements only)
 ```sh
-npm run serve # Compiles and hot-reloads for
+npm run serve # Compiles and hot-reloads for development
 npm run build # Compiles and minifies for production
 ```
 
